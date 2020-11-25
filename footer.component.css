@@ -1,0 +1,39 @@
+@media only screen and (max-width: 500px) {
+    footer {
+        margin-top: 1600px;
+        background-color: white;
+    }
+    footer.page-footer .footer-copyright {
+        margin-top: 500px;
+    }
+    div>a {
+        margin-left: 100px;
+    }
+    ul>li {
+        margin-left: 100px;
+    }
+}
+
+.footer-copyright.py-3 {
+    background-color: white;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: white;
+}
+
+a {
+    text-align: center;
+}
+
+ul>li {
+    text-align: center;
+    color: black;
+}
+
+div>a {
+    text-align: center;
+    color: black;
+    margin-left: 600px;
+}

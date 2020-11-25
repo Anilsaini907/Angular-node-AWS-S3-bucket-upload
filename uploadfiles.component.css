@@ -1,0 +1,119 @@
+#userid {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.alert .alert-light {
+    color: #203354;
+}
+
+@media only screen and (max-width: 500px) {
+    div#cardbody.card {
+        margin: 0 auto;
+        margin-top: 60px;
+        height: 350px;
+        width: 350px;
+        color: #203354;
+    }
+    .btn.btn-sm {
+        width: 160px;
+        height: 55px;
+        border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        -o-border-radius: 10px !important;
+        border: 2px solid black;
+        padding-bottom: 20px;
+        margin-left: 20px;
+    }
+}
+
+#cardbody {
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 350px;
+    width: 600px;
+    color: #203354;
+}
+
+.btn.btn-sm {
+    width: 160px;
+    height: 55px;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    border: 2px solid black;
+    padding-bottom: 20px;
+}
+
+#uploadbtn {
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    border: 2px solid black;
+    color: white;
+    background-color: #203354;
+    text-align: center;
+    line-height: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.file {
+    margin-left: 200px;
+}
+
+.file-path-wrapper {
+    width: 280px;
+    margin-left: 200px;
+}
+
+h1 h2 h3 h4 h5 ul li a {
+    color: #203354;
+}
+
+.file-path-wrapper {
+    color: #203354;
+}
+
+.md-form input:not([type]),
+.md-form input[type="text"]:not(.browser-default),
+.md-form input[type="password"]:not(.browser-default),
+.md-form input[type="email"]:not(.browser-default),
+.md-form input[type="url"]:not(.browser-default),
+.md-form input[type="time"]:not(.browser-default),
+.md-form input[type="date"]:not(.browser-default),
+.md-form input[type="datetime"]:not(.browser-default),
+.md-form input[type="datetime-local"]:not(.browser-default),
+.md-form input[type="tel"]:not(.browser-default),
+.md-form input[type="number"]:not(.browser-default),
+.md-form input[type="search"]:not(.browser-default),
+.md-form input[type="phone"]:not(.browser-default),
+.md-form input[type="search-md"],
+.md-form textarea.md-textarea {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: transparent;
+    border: none;
+    border-bottom: none!important;
+    border-radius: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}

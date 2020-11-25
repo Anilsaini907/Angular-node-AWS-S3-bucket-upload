@@ -1,0 +1,27 @@
+.card {
+    width: 325px;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 70px;
+    color: #203354;
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 325px;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 70px;
+        margin-top: 500px;
+        color: #203354;
+    }
+}
+
+p {
+    white-space: nowrap
+}

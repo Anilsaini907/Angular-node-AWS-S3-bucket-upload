@@ -1,0 +1,37 @@
+hr {
+    border: 1px solid green;
+    margin-top: 65px;
+}
+
+nav {
+    background-color: #f8f9fa;
+}
+
+nav a {
+    color: #203354;
+}
+
+li a {
+    color: #203354;
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        width: 400px;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+    }
+    #companyName>li>a {
+        display: none;
+    }
+    ul li a {
+        margin-top: -10px;
+    }
+}
